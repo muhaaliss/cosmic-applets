@@ -57,3 +57,7 @@ ignored = ["libcosmic"]
 
 [patch."https://github.com/Smithay/client-toolkit"]
 sctk = { git = "https://github.com/smithay/client-toolkit//", package = "smithay-client-toolkit", rev = "e63ab5f" }
+
+[patch."https://github.com/pop-os/cosmic-protocols"]
+cosmic-protocols = { git = "https://github.com/pop-os/cosmic-protocols//", branch = "ext-screencopy" }
+cosmic-client-toolkit = { git = "https://github.com/pop-os/cosmic-protocols//", branch = "ext-screencopy" }
